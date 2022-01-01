@@ -427,7 +427,7 @@ def check_and_ban(update, user_id, should_message=True):
             update.effective_message.reply_text(
                 f"<b>Alert</b>: this user is globally banned.\n"
                 f"<code>*bans them from here*</code>.\n"
-                f"<b>Appeal chat</b>: {SPAMWATCH_SUPPORT_CHAT}\n"
+                f"<b>Appeal chat</b>: @lunagban \n"
                 f"<b>User ID</b>: <code>{sw_ban.id}</code>\n"
                 f"<b>Ban Reason</b>: <code>{html.escape(sw_ban.reason)}</code>",
                 parse_mode=ParseMode.HTML,
@@ -440,7 +440,7 @@ def check_and_ban(update, user_id, should_message=True):
             text = (
                 f"<b>Alert</b>: this user is globally banned.\n"
                 f"<code>*bans them from here*</code>.\n"
-                f"<b>Appeal chat</b>: @{SUPPORT_CHAT}\n"
+                f"<b>Appeal chat</b>: @lunagban \n"
                 f"<b>User ID</b>: <code>{user_id}</code>"
             )
             user = sql.get_gbanned_user(user_id)
@@ -543,7 +543,7 @@ __help__ = f"""
 
 Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
 you and your groups by removing spam flooders as quickly as possible.
-*Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
+*Note:* Users can appeal gbans or report spammers at @lunagban
 
 This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
 *What is SpamWatch?*
