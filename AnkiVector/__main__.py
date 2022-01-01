@@ -97,7 +97,7 @@ buttons = [
 ]
 
 
-ANKIVECTOR_STICKER = "https://telegra.ph/file/1a037c8c3eca8ddcd9dfe.jpg"
+ANKIVECTOR_STICKER = ""
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
