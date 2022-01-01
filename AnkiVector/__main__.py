@@ -76,6 +76,11 @@ PM_START_TEXT = f"""
 """
 
 buttons = [
+        [
+        InlineKeyboardButton(
+            text="➕ fed join ➕", url="https://t.me/tamilchating_fed"
+        ),
+    ],
     [
         InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/luna_officials"),
         InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/lunasupportz"),
