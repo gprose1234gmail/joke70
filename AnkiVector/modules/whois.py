@@ -25,7 +25,7 @@ infotext = (
     " * First Name: `{first_name}`\n"
     " * Last Name: `{last_name}`\n"
     " * Username: `{username}`\n"
-    " * Last Online: `{last_online}`\n"
+    " * Last Online: `{last_online}` powered by @Missharelyluna_bot \n"
     " * Bio: {bio}"
 )
 
